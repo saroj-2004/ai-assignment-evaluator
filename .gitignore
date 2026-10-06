@@ -1,0 +1,23 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated evaluation reports and uploaded assignment PDFs
+/reports/
+/*.pdf
+
+# Local tooling and editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

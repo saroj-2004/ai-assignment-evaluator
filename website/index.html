@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assignment Evaluation</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<link rel="stylesheet" href="style.css">
+
+<h1>Assignment Evaluation System</h1>
+
+<p>Upload your assignment (PDF)</p>
+
+<form id="uploadForm">
+
+    <label>Subject</label>
+    <input
+        type="text"
+        id="subject"
+        placeholder="Enter Subject"
+    >
+
+    <label>Maximum Marks</label>
+    <input
+        type="number"
+        id="marks"
+        value="20"
+    >
+
+    <label>Select Assignment PDF</label>
+    <input
+        type="file"
+        id="pdf"
+        accept=".pdf"
+        required
+    >
+
+    <button type="submit">
+        Submit Assignment
+    </button>
+
+</form>
+
+<div id="loading"></div>
+
+<hr>
+
+<h2>Evaluation Result</h2>
+
+<pre id="result"></pre>
+
+<br>
+
+<a
+    id="download"
+    href="#"
+    target="_blank"
+    style="display:none;"
+>
+    📄 Download Evaluation Report
+</a>
+
+<br><br>
+
+<iframe
+    id="pdfFrame"
+    width="100%"
+    height="700"
+    style="display:none;border:1px solid #ccc;"
+></iframe>
+<script src="script.js"></script>
+
+</body>
+</html>

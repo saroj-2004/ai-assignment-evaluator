@@ -1,0 +1,14 @@
+{
+  "subject": "Artificial Intelligence",
+  "course_level": "Bachelor 2nd Year",
+  "maximum_marks": 20,
+
+  "rubric": {
+    "Correctness": 10,
+    "Explanation": 5,
+    "Examples": 3,
+    "Grammar": 2
+  },
+
+  "teacher_instruction": "Be strict. Deduct marks for incorrect facts. Reward clear explanations and relevant examples."
+}
